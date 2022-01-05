@@ -2,11 +2,11 @@
 
 [![Stats](https://nodei.co/npm/gulp-free-tex-packer.png?downloads=true&stars=true)](https://www.npmjs.com/package/gulp-free-tex-packer) \
 Free texture packer module for gulp \
-Based on https://github.com/odrick/free-tex-packer
+Based on https://github.com/zfkun/free-tex-packer
 
 # Install
    
-$ npm install gulp-free-tex-packer
+$ npm install git@github.com:zfkun/gulp-free-tex-packer.git
    
 # Basic usage
 ```js
@@ -34,6 +34,7 @@ gulp.task('pack', function() {
             height: 1024,
             fixedSize: false,
             padding: 2,
+            allowSort: true,
             allowRotation: true,
             detectIdentical: true,
             allowTrim: true,
