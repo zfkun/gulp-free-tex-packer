@@ -5,8 +5,10 @@ Free texture packer module for gulp \
 Based on https://github.com/zfkun/free-tex-packer
 
 # Install
-   
-$ npm install git@github.com:zfkun/gulp-free-tex-packer.git
+
+```shell
+npm install git@github.com:zfkun/gulp-free-tex-packer.git
+```
    
 # Basic usage
 ```js
@@ -47,13 +49,13 @@ gulp.task('pack', function() {
 ```
 
 
-**Pack options description**: https://github.com/odrick/free-tex-packer-core#available-options
+**Pack options description**: https://github.com/zfkun/free-tex-packer-core#available-options
 
-**Custom exporters description**: https://github.com/odrick/free-tex-packer-core#custom-exporter
+**Custom exporters description**: https://github.com/zfkun/free-tex-packer-core#custom-exporter
 
 # Used libs
 
-* **Free texture packer core** - https://github.com/odrick/free-tex-packer-core
+* **Free texture packer core** - https://github.com/zfkun/free-tex-packer-core
 
 ---
 License: MIT
